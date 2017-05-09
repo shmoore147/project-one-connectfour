@@ -13,9 +13,18 @@ var start = $(".startButton");
  // });
 
 $(".dropButtonOne").on('click', function () {
-  // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  var counter = 2;
+  counter += 1;
+
+      if (counter % 2 == 0) {
+  $("#forty-three").append('<div class="chipYellow"></div>');
+}  else{
+        $("#forty-three").append('<div class="chipPink"></div>');
+}
 });
+
+
+
 
 $(".dropButtonTwo").on('click', function () {
   // console.log("hi!");
@@ -46,4 +55,20 @@ $(".dropButtonSeven").on('click', function () {
   // console.log("hi!");
   $("#forty-nine").append('<div class="chipPink"></div>')
 });
+//
+// $(".dropButtons").css("background-color", "yellow");
+//
+//
+//
+// $('#green').on('click', function () {
+//   $('#black').css('background-color', 'green');
+// });
+
+
+// $(“button”).click(function(){
+//     $(“p”).css(“color”, “red”);
+// });
+
+
+
   });
