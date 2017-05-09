@@ -19,31 +19,31 @@ $(".dropButtonOne").on('click', function () {
 
 $(".dropButtonTwo").on('click', function () {
   // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  $("#forty-four").append('<div class="chipPink"></div>')
 });
 
 $(".dropButtonThree").on('click', function () {
   // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  $("#forty-five").append('<div class="chipPink"></div>')
 });
 
 $(".dropButtonFour").on('click', function () {
   // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  $("#forty-six").append('<div class="chipPink"></div>')
 });
 
 $(".dropButtonFive").on('click', function () {
   // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  $("#forty-seven").append('<div class="chipPink"></div>')
 });
 
 $(".dropButtonSix").on('click', function () {
   // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  $("#forty-eight").append('<div class="chipPink"></div>')
 });
 
 $(".dropButtonSeven").on('click', function () {
   // console.log("hi!");
-  $("#forty-three").append('<div class="chipPink"></div>')
+  $("#forty-nine").append('<div class="chipPink"></div>')
 });
   });

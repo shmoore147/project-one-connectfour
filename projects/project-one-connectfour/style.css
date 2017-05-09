@@ -123,6 +123,185 @@ p {
       position: relative;
       font-size: 16px;
     }
+
+    .dropButtonTwo {
+      background-color: darkseagreen;
+      margin: 3px;
+      height: 35px;
+      width: 54px;
+      border: 2px solid white;
+      border-radius: 15px;
+      float: left;
+      font-family: arial, sans-serif;
+      color: white;
+      text-align: center;
+      position: relative;
+      font-size: 16px;
+        }
+
+        .dropButtonTwo:hover {
+          background-color: seagreen;
+          margin: 3px;
+          height: 35px;
+          width: 54px;
+          border: 2px solid white;
+          border-radius: 15px;
+          float: left;
+          font-family: arial, sans-serif;
+          color: white;
+          text-align: center;
+          position: relative;
+          font-size: 16px;
+        }
+        .dropButtonThree {
+          background-color: darkseagreen;
+          margin: 3px;
+          height: 35px;
+          width: 54px;
+          border: 2px solid white;
+          border-radius: 15px;
+          float: left;
+          font-family: arial, sans-serif;
+          color: white;
+          text-align: center;
+          position: relative;
+          font-size: 16px;
+            }
+
+            .dropButtonThree:hover {
+              background-color: seagreen;
+              margin: 3px;
+              height: 35px;
+              width: 54px;
+              border: 2px solid white;
+              border-radius: 15px;
+              float: left;
+              font-family: arial, sans-serif;
+              color: white;
+              text-align: center;
+              position: relative;
+              font-size: 16px;
+            }
+
+            .dropButtonFour {
+              background-color: darkseagreen;
+              margin: 3px;
+              height: 35px;
+              width: 54px;
+              border: 2px solid white;
+              border-radius: 15px;
+              float: left;
+              font-family: arial, sans-serif;
+              color: white;
+              text-align: center;
+              position: relative;
+              font-size: 16px;
+                }
+
+                .dropButtonFour:hover {
+                  background-color: seagreen;
+                  margin: 3px;
+                  height: 35px;
+                  width: 54px;
+                  border: 2px solid white;
+                  border-radius: 15px;
+                  float: left;
+                  font-family: arial, sans-serif;
+                  color: white;
+                  text-align: center;
+                  position: relative;
+                  font-size: 16px;
+                }
+                .dropButtonFive {
+                  background-color: darkseagreen;
+                  margin: 3px;
+                  height: 35px;
+                  width: 54px;
+                  border: 2px solid white;
+                  border-radius: 15px;
+                  float: left;
+                  font-family: arial, sans-serif;
+                  color: white;
+                  text-align: center;
+                  position: relative;
+                  font-size: 16px;
+                    }
+
+                    .dropButtonFive:hover {
+                      background-color: seagreen;
+                      margin: 3px;
+                      height: 35px;
+                      width: 54px;
+                      border: 2px solid white;
+                      border-radius: 15px;
+                      float: left;
+                      font-family: arial, sans-serif;
+                      color: white;
+                      text-align: center;
+                      position: relative;
+                      font-size: 16px;
+                    }
+                    .dropButtonSix {
+                      background-color: darkseagreen;
+                      margin: 3px;
+                      height: 35px;
+                      width: 54px;
+                      border: 2px solid white;
+                      border-radius: 15px;
+                      float: left;
+                      font-family: arial, sans-serif;
+                      color: white;
+                      text-align: center;
+                      position: relative;
+                      font-size: 16px;
+                        }
+
+                        .dropButtonSix:hover {
+                          background-color: seagreen;
+                          margin: 3px;
+                          height: 35px;
+                          width: 54px;
+                          border: 2px solid white;
+                          border-radius: 15px;
+                          float: left;
+                          font-family: arial, sans-serif;
+                          color: white;
+                          text-align: center;
+                          position: relative;
+                          font-size: 16px;
+                        }
+                        .dropButtonSeven {
+                          background-color: darkseagreen;
+                          margin: 3px;
+                          height: 35px;
+                          width: 54px;
+                          border: 2px solid white;
+                          border-radius: 15px;
+                          float: left;
+                          font-family: arial, sans-serif;
+                          color: white;
+                          text-align: center;
+                          position: relative;
+                          font-size: 16px;
+                            }
+
+                            .dropButtonSeven:hover {
+                              background-color: seagreen;
+                              margin: 3px;
+                              height: 35px;
+                              width: 54px;
+                              border: 2px solid white;
+                              border-radius: 15px;
+                              float: left;
+                              font-family: arial, sans-serif;
+                              color: white;
+                              text-align: center;
+                              position: relative;
+                              font-size: 16px;
+                            }
+
+
+
 .chipPink {
   	border-radius: 50%;
   	width: 50px;
