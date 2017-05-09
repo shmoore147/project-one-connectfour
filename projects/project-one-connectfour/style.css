@@ -23,21 +23,26 @@ h2 {
   padding: 10px 0px;
   font-weight: lighter;
 }
+p {
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
 
 /*I got these dimensions from the example tic-tac-toe file*/
 .board {
-    width: 800px;
-    height: 800px;
+    width:450px;
+    height: 450px;
     margin: 0 auto;
 }
 
 .cell {
     background-color: white;
     margin: 3px;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border: 2px solid white;
-    border-radius: 25px;
+    border-radius: 15px;
     float: left;
     font-family: arial, sans-serif;
     color: white;
@@ -45,12 +50,12 @@ h2 {
     position: relative;
 }
 .cell:hover {
-    background-color: white;
+    background-color: lightgrey;
     margin: 3px;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border: 2px solid white;
-    border-radius: 25px;
+    border-radius: 15px;
     float: left;
     font-family: arial, sans-serif;
     color: white;
@@ -61,7 +66,7 @@ h2 {
 }
 
 .startButton {
-  background-color: salmon;
+  background-color: lightsalmon;
   border: 2px solid white;
   border-radius: 12px;
   color: white;
@@ -76,7 +81,7 @@ h2 {
 }
 
 .startButton:hover {
-    background-color: salmon;
+    background-color: darksalmon;
     border: 2px solid white;
     border-radius: 12px;
     color: white;
@@ -88,23 +93,60 @@ h2 {
     font-size: 20px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
+
+.dropButtonOne {
+  background-color: darkseagreen;
+  margin: 3px;
+  height: 35px;
+  width: 54px;
+  border: 2px solid white;
+  border-radius: 15px;
+  float: left;
+  font-family: arial, sans-serif;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+    }
+
+    .dropButtonOne:hover {
+      background-color: seagreen;
+      margin: 3px;
+      height: 35px;
+      width: 54px;
+      border: 2px solid white;
+      border-radius: 15px;
+      float: left;
+      font-family: arial, sans-serif;
+      color: white;
+      text-align: center;
+      position: relative;
+      font-size: 16px;
+    }
 .chipPink {
   	border-radius: 50%;
-  	width: 100px;
-  	height: 100px;
+  	width: 50px;
+  	height: 50px;
     background: hotpink;
     position: relative;
     align-items: center;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+
 
   }
   .chipYellow {
     	border-radius: 50%;
-    	width: 100px;
-    	height: 100px;
+    	width: 50px;
+    	height: 50px;
       background: yellow;
       position: relative;
       align-content: center;
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      display: inline-flex;
+      justify-content: space-around;
 
     }
