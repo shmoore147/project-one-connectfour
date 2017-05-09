@@ -9,14 +9,25 @@ h1 {
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 60px;
-    margin-top: 30px;
+    font-size: 80px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 5px salmon
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  margin-top: 0px;
+  padding: 10px 0px;
+  font-weight: lighter;
 }
 
 /*I got these dimensions from the example tic-tac-toe file*/
 .board {
-    width: 350px;
-    height: 350px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
 }
 
@@ -34,6 +45,21 @@ h1 {
 }
 
 .startButton {
+  background-color: salmon;
+  border: 2px solid white;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 50px;
+  /*padding-bottom: 50px;*/
+}
+
+.startButton:hover {
     background-color: salmon;
     border: 2px solid white;
     border-radius: 12px;
@@ -44,5 +70,6 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
 }
