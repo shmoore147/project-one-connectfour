@@ -1,21 +1,12 @@
-function () {
+  $(function() {
 
-$(".startButton").click(function () {
-    alert("The game is starting!");
-});
-
-
-
+var start = $(".startButton");
+    $(start).click(function () {
+        alert("The game is starting!");
+    });
 
 
 
 
 
-
-
-
-
-
-
-
-}
+  });
