@@ -1,7 +1,7 @@
 $(function() {
     var start = $(".startButton");
     $(start).click(function () {
-        alert("Click on a 'drop' button at the top of a column to drop your first chip!");
+        alert("Hi there! Player one: Click on a 'drop' button at the top of a column to drop your first chip!");
     });
 
     var playerTurn = 1
